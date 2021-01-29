@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: large;
+    font-weight: bold;
+}
+
+#container {
+    width: 50%;
+    display: inline-flex;
+    flex-flow: row;
+    margin: 10%;
+    border: 3px deepskyblue inset;
+}
+
+input,label {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+input{
+    border: 3px deepskyblue inset;
+}
+.error {
+    height: 5rem;
+    background-color: darkred;
+    text-align: center;
+    color:white;
+    font-size: xx-large;
+}
+
+input[type=submit] {
+    font-weight: bold;
+    color: black;
+}
